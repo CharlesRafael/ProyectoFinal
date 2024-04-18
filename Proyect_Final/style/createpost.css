@@ -1,0 +1,92 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+.maincreate {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.createposttitle {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#createpostdiv {
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#createpostbtn {
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    background-color: #3360f9;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+#imagesforpost {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+#uploadbuttonicon {
+    width: 20px;
+}
+
+#submitbuttondiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#postfiles {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .maincreate {
+        padding: 15px;
+    }
+
+    .createposttitle {
+        font-size: 20px;
+    }
+}

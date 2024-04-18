@@ -1,0 +1,186 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+}
+
+#loaderdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profilepicture {
+    height: 45px;
+    width: 45px;
+    border-radius: 100px;
+}
+
+.inputfirst {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#showposts {
+    background-color: #f0f2f9;
+}
+
+#container {
+    padding-top: 20px;
+}
+
+#a {
+    background-color: #f0f2f5;
+    width: 100%;
+    font-size: 15px;
+    height: 40px;
+    outline: none !important;
+    border: none;
+    margin: 0;
+    padding: 15px;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+    #a::placeholder {
+        color: black;
+    }
+
+.userprofile {
+    margin: 0;
+}
+
+.profileimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+
+.postmain {
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.postheader {
+    padding: 10px;
+}
+
+.userprodiv {
+    display: flex;
+    align-items: center;
+}
+
+    .userprodiv > div > h6 {
+        margin-top: 3px;
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+.postimage {
+    width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.footerdiv {
+    border-top: 1px solid rgb(206, 200, 200);
+    border-bottom: 1px solid rgb(206, 200, 200);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+    .footerdiv > button {
+        border: none;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+        color: #000000;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+#createpostdiv {
+    padding: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 15px;
+    max-height: 74vh;
+    overflow: auto;
+}
+
+.postheader > p {
+    font-size: 14px;
+}
+
+#h1 {
+    font-weight: bolder;
+    padding: 20px;
+}
+
+video {
+    width: 100%;
+    height: 300px;
+}
+
+.sendbutton {
+    width: 30px;
+    cursor: pointer;
+}
+
+.commentmain {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.commentprofileimage {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+.commentmain > div {
+    background-color: #f4f5f7;
+    padding: 10px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.writecomment {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.commentinput {
+    width: calc(100% - 40px);
+    background-color: #f4f5f7;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    padding-left: 20px;
+}
+
+.nav {
+    margin-top: 20px;
+}
